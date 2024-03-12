@@ -1,0 +1,43 @@
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 50vh;
+    height: 80vh;
+    margin: 0%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: #181c25;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px; width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+button {color: #a3a3a3;
+    background-color: #333b4e;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#equal {
+    width: 100%;
+}
+
+#equal button{
+    width: 100%;
+}
