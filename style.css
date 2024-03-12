@@ -5,14 +5,17 @@ body {
     align-items: center;
     height: 100vh;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /* estilos basicos */
 
 .container {
     box-shadow:0px 0px 30px #0f5177;
-    width: 50vh;
-    height: 80%;
-    margin: 0%;
+    width: 400px;
+    height: 520px;
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -22,14 +25,28 @@ body {
     padding: 40px;
 }
 
-input {
-    border: none;
-    background-color: #252b3a;
+/* pantalla */
+.display {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1d222e;
+    margin-bottom: 10px;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
 }
 
+.display {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* estilos de botones */
 .botones{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     gap: 10px; width: 100%;
     height: 100%;
     margin-bottom: 10px;
@@ -38,19 +55,22 @@ input {
 button {color: #a3a3a3;
     width: 100%;
     height: 100%;
-    background-color: #333b4e;
+    background-color: rgb(29, 34, 46);
     border: none;
     font-size: 20px;
     font-weight: 700;
-    border-radius: 90px;
+    border-radius: 10px;
 }
 
-#equal {
+/* div de igual y cero */
+#equal_zero {
+    display: flex;
+    gap: 10px;
     width: 100%;
 }
 
-#equal button{
-    width: 100%;
+#equal_zero button{
+    width: 50%;
 }
 
 #btn_special{
