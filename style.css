@@ -6,9 +6,12 @@ body {
     height: 100vh;
 }
 
+/* estilos basicos */
+
 .container {
+    box-shadow:0px 0px 30px #0f5177;
     width: 50vh;
-    height: 80vh;
+    height: 80%;
     margin: 0%;
     display: flex;
     flex-direction: column; 
@@ -17,6 +20,11 @@ body {
     background-color: #181c25;
     border-radius: 10px;
     padding: 40px;
+}
+
+input {
+    border: none;
+    background-color: #252b3a;
 }
 
 .botones{
@@ -28,10 +36,13 @@ body {
 }
 
 button {color: #a3a3a3;
+    width: 100%;
+    height: 100%;
     background-color: #333b4e;
     border: none;
     font-size: 20px;
     font-weight: 700;
+    border-radius: 90px;
 }
 
 #equal {
@@ -41,3 +52,8 @@ button {color: #a3a3a3;
 #equal button{
     width: 100%;
 }
+
+#btn_special{
+    background-color: #0f5177;
+}
+
