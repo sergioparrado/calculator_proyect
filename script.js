@@ -35,7 +35,7 @@ buttons.forEach((btn) => {
             }
 
             //resolver operacion, si no, devuelve error
-            if (btn.id==="=")  {
+            if (btn.id==="equal")  {
                try {
                 display.textContent = eval(display.textContent)
                } catch {

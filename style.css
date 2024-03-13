@@ -1,4 +1,10 @@
+html {
+    width: auto;
+    margin: auto;
+}
+
 body {
+    width: auto;
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -76,4 +82,10 @@ button {color: #a3a3a3;
 #btn_special{
     background-color: #0f5177;
 }
+
+#equal{
+    background-color: #1d243e;
+    font-size: 26px;
+}
+
 
